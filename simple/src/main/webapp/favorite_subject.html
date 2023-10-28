@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Favorite Subject</title>
+</head>
+<body>
+<form action="favoriteSubject" method="get">
+    // action จะไปเรียกเอกสารที่ทำการ URL Mapping เอาไว้ ถ้าไม่เจอจะขึ้น 404 page found
+    // URL Mapping ทำการสร้าง Servlet เพื่อ Mapping
+
+    Student Id: <input type="text" name="id"><br>
+    Student Name: <input type="text" name="name"><br>
+    Student Favorite Subject: <br>
+    &nbsp; &nbsp; <input type="checkbox" name="favorite_subject" value="Java Programming"> Java Programming<br>
+    &nbsp; &nbsp; <input type="checkbox" name="favorite_subject" value="Computer Network"> Computer Network<br>
+    &nbsp; &nbsp; <input type="checkbox" name="favorite_subject" value="Database"> Database<br>
+    &nbsp; &nbsp; <input type="checkbox" name="favorite_subject" value="Web App Dev"> Web App Dev<br>
+    &nbsp; &nbsp; <input type="checkbox" name="favorite_subject" value="Front-End Dev"> Front-End Dev<br>
+    &nbsp; &nbsp; <input type="submit">
+</form>
+</body>
+</html>
